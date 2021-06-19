@@ -8,9 +8,9 @@ Home of dynamic-form-builder project
 
 Node Version > 12.20.1  
 NPM Version > 6.14.10  
-Install nodemon  
-Install MongoDB on the local machine or use cluster  
-Install elastic search on the local machine or use elastic cloud
+Install nodemon
+Install MongoDB on the local machine or use cluster (We can use MongoDB Atlas
+but maybe you will not be able to access it directly, that's why I choose local)
 
 ## Backend
 
@@ -34,7 +34,8 @@ Install elastic search on the local machine or use elastic cloud
 
 ### Backend
 
-Create a **_.env.development_** file at the root of the project. See package/api/env.sample file for reference and ask your manager for these env variable values.
+I have added .env.development, it should work for you,
+generally we don't include it in git but for testing purpose.
 
 4.) **To run a project**
 
@@ -59,17 +60,24 @@ a.) `npm install` run at the root directory
 
 ### Backend
 
-Create a **_.env.development_** file at the root of the project. See package/api/env.sample file for reference and ask developer for these env variable values.
+I have added .env.development, it should work for you,
+generally we don't include it in git but for testing purpose.
+
+## Documentation
+
+I have added swagger documentation for APIs, it will work on
+http://[PORTADDRESS]/documentation (e.g. http://localhost:9000/documentation)
 
 ### Frontend
 
-Create a **_.env_** file at the root of the project. See package/webapp/env.sample file for reference and ask developer for these env variable values.
+I have added .env, it should work for you,
+generally we don't include it in git but for testing purpose.
 
 4.) **To run a project**
 
     ### Backend
-    To Run API `npm run start`
+    To Run API `npm run start` Default Port: 9000
 
 
     ### Frontend
-    To Run WEB-APP `npm run dev`
+    To Run WEB-APP `npm run dev` Default Port: 3000
