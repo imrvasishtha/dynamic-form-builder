@@ -32,18 +32,6 @@ but maybe you will not be able to access it directly, that's why I choose local)
 
 ---
 
-### Backend
-
-I have added .env.development, it should work for you,
-generally we don't include it in git but for testing purpose.
-
-4.) **To run a project**
-
-    ### Backend
-    To Run API `npm run start`
-
----
-
 ### Now setup dynamic-form-builder components
 
 1.) **Clone a project**
