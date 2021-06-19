@@ -1,0 +1,82 @@
+{
+  "name": "dynamic-form-builder",
+  "version": "1.0.0",
+  "description": "A user authentication/management microservice  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing jest",
+    "test:ci": "NODE_ENV=testing jest",
+    "test:watch": "NODE_ENV=testing jest --watch",
+    "test:coverage": "NODE_ENV=testing jest --coverage",
+    "start:prod": "NODE_ENV=production ./node_modules/nodemon/bin/nodemon.js index.js",
+    "start": "NODE_ENV=development ./node_modules/nodemon/bin/nodemon.js index.js",
+    "check": "npm run format && npm run lint",
+    "format": "prettier --write \"**/*.+(js|yml|yaml|json)\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "authentication",
+    "user-management",
+    "user",
+    "auth"
+  ],
+  "author": "imrvasishtha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imrvasishtha/dynamic-form-builder/issues"
+  },
+  "homepage": "https://github.com/imrvasishtha/dynamic-form-builder#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.7.1",
+    "@hapi/boom": "^9.1.2",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.0.1",
+    "aws-sdk": "^2.867.0",
+    "axios": "^0.19.2",
+    "bcrypt-nodejs": "0.0.3",
+    "dotenv": "^8.2.0",
+    "elastic-apm-node": "^3.12.1",
+    "enjoi": "^9.0.0",
+    "hapi-api-version": "^2.3.1",
+    "hapi-auth-jwt2": "^8.8.1",
+    "hapi-pino": "^6.5.0",
+    "hapi-query-builder": "^1.0.4",
+    "hapi-swagger": "^14.1.0",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.12.3",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "mime-types": "^2.1.27",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.9",
+    "mongoose-paginate": "^5.0.3",
+    "node-file-cache": "^1.0.2",
+    "sharp": "^0.25.2"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^5.1.0",
+    "axios-mock-adapter": "^1.17.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "faker": "^4.1.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "store.json"
+    ]
+  }
+}
