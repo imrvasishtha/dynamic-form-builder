@@ -83,4 +83,4 @@ all forms list available at eg. http://localhost:3000/listing
 ### form data
 
 form data you can see by clicking on slug button of every form
-its showing in json, but you will get idea, how it stored in datbase.
+its showing in json, but you will get idea, how it stored in database.
