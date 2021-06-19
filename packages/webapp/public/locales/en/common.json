@@ -1,0 +1,19 @@
+{
+  "signupForm": {
+    "signup": "Sign Up",
+    "signupHeading": "Welcome to dynamic-form-builder",
+    "signupSubheading": "Please tell us who are you?"
+  },
+  "closeModal": {
+    "head": "Are you sure you are ready to close the challenge?",
+    "content": "Please make sure you have assigned rewards to submissions that deserve them and provided feedback to all submissions. You will not be able to edit rewards and feedback after the challenge has been closed."
+  },
+  "submissionContainer": {
+    "Upcoming": "Submissions open in",
+    "NoSubmission": "There are no submissions yet",
+    "AdminText": "Spread the word to encourage more creators to get involved.",
+    "NonAdminText": "Spread the word to encourage more creators to get involved.",
+    "Share": "Share with followers",
+    "Copy": "Copy link"
+  }
+}

@@ -1,0 +1,32 @@
+{
+ "name": "dynamic-form-builder",
+ "private": true,
+ "version": "1.0.0",
+ "description": "dynamic-form-builder project",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/imrvasishtha/dynamic-form-builder.git"
+ },
+ "author": "imrvasistha",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/imrvasishtha/dynamic-form-builder/issues"
+ },
+ "homepage": "https://github.com/imrvasishtha/dynamic-form-builder#readme",
+ "devDependencies": {
+  "@commitlint/cli": "^12.0.1",
+  "@commitlint/config-conventional": "^12.0.1",
+  "husky": "^5.1.2",
+  "lerna": "^3.22.1"
+ },
+ "husky": {
+  "hooks": {
+   "pre-push": "lerna run --scope dynamic-form-builder-api lint && lerna run --scope dynamic-form-builder-api test",
+   "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  }
+ }
+}

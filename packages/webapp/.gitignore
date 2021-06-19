@@ -1,0 +1,9 @@
+node_modules
+coverage
+.next
+config.js
+out
+app_deploy.sh
+sb_deploy.sh
+.out_storybook
+.env.development

@@ -1,0 +1,43 @@
+.container {
+  padding-top: 50px;
+}
+
+.imgDiv {
+  margin: 20px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.uploaderContainer {
+  min-height: 370px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.06);
+  margin: auto;
+}
+
+.TagGroupBtn {
+  background: transparent;
+  border: none;
+  touch-action: none;
+}
+
+.uploaderContainerMini {
+  padding: 2px;
+  border: 1px dashed black;
+  border-radius: 8px;
+  background: #fbf9f9;
+}
+
+.toggleBtns::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 1025px) {
+  .uploaderContainer {
+    min-height: 355px;
+  }
+}

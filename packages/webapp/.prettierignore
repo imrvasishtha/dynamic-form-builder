@@ -1,0 +1,8 @@
+# Ignore directories
+node_modules
+out
+.next
+.storybook_out
+.serverless
+.serverless_next
+

@@ -1,0 +1,146 @@
+// Screen breakpoint in pixels
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Light colors
+$light-900: #ffffff;
+$light-800: #c1c6c8;
+$light-700: #8d9499;
+$light-600: #697479;
+$light-500: #4d595f;
+$light-400: #404d54;
+$light-300: #35424a;
+$light-200: #2e3c44;
+$light-100: #2a3840;
+
+// Dark colors
+$dark-900: #1d272c;
+$dark-800: rgba($dark-900, 0.72);
+$dark-700: rgba($dark-900, 0.48);
+$dark-600: rgba($dark-900, 0.32);
+$dark-500: rgba($dark-900, 0.19);
+$dark-400: rgba($dark-900, 0.13);
+$dark-300: rgba($dark-900, 0.08);
+$dark-200: rgba($dark-900, 0.05);
+$dark-100: rgba($dark-900, 0.03);
+
+// Black colors
+$black-900: #000000;
+
+// Primary colors
+$primary-900: #7e49d9;
+$primary-800: #6442ac;
+$primary-700: #4e3c85;
+$primary-600: #3f386c;
+$primary-500: #333557;
+$primary-400: #2e334d;
+$primary-300: #293245;
+$primary-200: #273140;
+$primary-100: #25313d;
+
+// Secondary colors
+$secondary-900: #60cccf;
+$secondary-800: #4fa0a5;
+$secondary-700: #407b80;
+$secondary-600: #366268;
+$secondary-500: #2e4e55;
+$secondary-400: #2a444c;
+$secondary-300: #273c44;
+$secondary-200: #253840;
+$secondary-100: #24353d;
+
+// Tertiary colors
+$tertiary-900: #ff834f;
+$tertiary-800: #c16c49;
+$tertiary-700: #8c5843;
+$tertiary-600: #694b3f;
+$tertiary-500: #4c403c;
+$tertiary-400: #3f3b3b;
+$tertiary-300: #34373a;
+$tertiary-200: #2d3439;
+$tertiary-100: #293239;
+
+// Success-color
+$success-900: #50daa0;
+$success-800: #43aa83;
+$success-700: #38826a;
+$success-600: #316659;
+$success-500: #2b504c;
+$success-400: #284646;
+$success-300: #263e40;
+$success-200: #24393d;
+$success-100: #23353b;
+
+// Warning-color
+$warning-900: #ffd058;
+$warning-800: #c1a34f;
+$warning-700: #8c7d47;
+$warning-600: #696342;
+$warning-500: #4c4e3e;
+$warning-400: #3f453c;
+$warning-300: #343d3b;
+$warning-200: #2d383a;
+$warning-100: #293539;
+
+// Danger-color
+$danger-900: #ff586c;
+$danger-800: #c14d5d;
+$danger-700: #8c4351;
+$danger-600: #693d49;
+$danger-500: #4c3842;
+$danger-400: #3f353f;
+$danger-300: #34333c;
+$danger-200: #2d323b;
+$danger-100: #29313a;
+
+//Border-radius
+$radius-none: 0;
+$radius-v-small: 2px;
+$radius-small: 6px;
+$radius-medium: 12px;
+$radius-large: 32px;
+$radius-round: 50%;
+
+// Transition
+$transition-standard: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+// Archvied variables
+
+$borderColor: #eff2f5;
+$signinblue: #4a70d9;
+$lightGray: #a2b0bc;
+$disablefontcolor: #c0c6cf;
+$disablebuttoncolor: #e1e4e8;
+$solidColor: #2867b2;
+$btnlinkedinHover: #245ca0;
+$royalblue: #0c66ff;
+$linkColor: #0d55cf;
+$lightgray: #f1f2f4;
+$btnlightHover: #e1e4e8;
+$white: #ffffff;
+$gray: #4d5c77;
+$black: #000000;
+$btnColor: #47505a;
+$signupgray: #464f5a;
+$warning: #800000;
+$progress: #47ded9;
+$manual: #0679d8;
+$scrollBar: #abb7c2;
+$themeBlue: #077bda;
+$btnPrimary: #43d5cd;
+$femalePink: #e94a61;
+$tagBackground: #f7f8f9;
+
+$dark: #1d272c;
+$primary: #60cccf;
+$secondary: #255657;
+$orange: #ee8437;
+$tag: #314752;
+$red: #ff523a;
+$green: #3ec283;
+
+$grey-dark: #0a1f44;
+
+$error-base: #dd2727;

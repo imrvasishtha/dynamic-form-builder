@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/

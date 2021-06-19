@@ -1,0 +1,134 @@
+@import '../../styles/variable.scss';
+
+.btn {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  line-height: 24px;
+  padding: 10px 20px !important;
+  color: $disablefontcolor;
+  text-align: center;
+  padding: 20px;
+  background-color: $disablebuttoncolor;
+  border: none;
+  border-radius: $radius-small;
+
+  svg {
+    position: absolute;
+    right: 10px;
+  }
+
+  path {
+    fill: $btnPrimary !important;
+  }
+}
+
+.btn.btnfilledClose {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  line-height: 24px;
+  padding: 10px !important;
+  color: $disablefontcolor;
+  text-align: center;
+  padding: 20px;
+  background-color: $disablebuttoncolor;
+  border: none;
+  border-radius: $radius-small;
+}
+
+.btnfilledcloseActive {
+  padding: 10px !important;
+  background-color: $btnPrimary;
+  color: #32414a;
+}
+
+.btn.disabled {
+  pointer-events: none;
+  padding: 10px !important;
+  background-color: #223038;
+  color: linear-gradient(0deg,
+      rgba(255, 255, 255, 0.32),
+      rgba(255, 255, 255, 0.32));
+  border: 2px solid #223038;
+}
+
+.btn.btnoutline {
+  color: $btnPrimary;
+  background: transparent;
+  border: 1px solid $btnPrimary;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+
+  svg {
+    left: 10px !important;
+    height: 20px;
+  }
+
+  span {
+    margin-left: 12px;
+  }
+}
+
+.btn.btnfilled {
+  color: #32414a;
+  background-color: $btnPrimary;
+  font-size: 15px !important;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+
+  svg {
+    left: 10px !important;
+    height: 20px;
+  }
+
+  span {
+    margin-left: 12px;
+  }
+
+  path {
+    fill: #32414a !important;
+  }
+}
+
+.btn.btntext {
+  border: none;
+  color: $btnPrimary;
+  background: transparent;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn.start {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+
+  span {
+    margin-left: 20px;
+  }
+
+  svg {
+    left: 0;
+  }
+
+  path {
+    fill: $white !important;
+  }
+
+  color: $white;
+}
+
+.comingSoon {
+  font-size: 9px;
+  width: max-content;
+  margin: auto;
+}

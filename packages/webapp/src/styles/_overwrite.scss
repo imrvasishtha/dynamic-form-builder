@@ -1,0 +1,159 @@
+@import './variable.scss';
+
+// React toastify overwrite scss
+.toast-custom-style {
+  font-family: 'Inter' !important;
+  width: auto;
+
+  .Toastify__toast--success {
+    background: $grey-dark !important;
+    color: $white !important;
+  }
+
+  .Toastify__toast--default {
+    background: #fff;
+    color: #223038;
+  }
+
+  .Toastify__toast--error {
+    background: $error-base !important;
+    color: $white !important;
+  }
+
+  .Toastify__toast--success,
+  .Toastify__toast--error {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    border-radius: 4px;
+  }
+
+  .Toastify__toast {
+    min-height: auto !important;
+    padding: 8px;
+    border-radius: 6px;
+  }
+
+  .errorIcon {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .Toastify__close-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -8px;
+  }
+
+  .Toastify__close-button:hover {
+    opacity: 1;
+  }
+
+  .Toastify__close-button:before,
+  .Toastify__close-button:after {
+    position: absolute;
+    left: 0px;
+    content: ' ';
+    height: 16px;
+    width: 2px;
+    background-color: $white;
+  }
+
+  .Toastify__close-button:before {
+    transform: rotate(45deg);
+  }
+
+  .Toastify__close-button:after {
+    transform: rotate(-45deg);
+  }
+}
+
+.modal-header {
+  border-bottom: 1px solid #4d595f !important;
+}
+
+.modal-footer {
+  border-top: 1px solid #4d595f !important;
+}
+.modal-footer.invite {
+  border: none !important;
+}
+
+.modalTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.mailTabs {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mailTabs .nav-link {
+  border-color: none !important;
+  color: gray !important;
+}
+
+.mailTabs.nav-tabs {
+  border-bottom: 1px solid #4d595f;
+}
+
+.mailTabs .nav-link.active {
+  background: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  color: white !important;
+  border-right: none !important;
+  border-bottom: 2px solid #43d5cd !important;
+  padding-left: 0;
+  margin-left: 20px;
+  padding-right: 10px;
+}
+
+.footerChallenges.modal-footer {
+  display: block;
+}
+
+// carousal mostly used in post
+
+.carousel .control-prev.control-arrow {
+  left: 10px !important;
+}
+
+.carousel .control-next.control-arrow {
+  right: 10px !important;
+}
+
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  opacity: 0.7 !important;
+}
+
+// common modal used as confirmation modal
+.closeModal .modal-content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.select.sortBy {
+  background-color: transparent;
+  border: 1px solid #4d595f;
+  select {
+    background-color: #1d272c;
+  }
+}
+.select.select.sortBy::after {
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 32px;
+}
